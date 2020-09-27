@@ -7,3 +7,6 @@ function add(a, b) {
 function getAge(obj) {
   return obj.age;
 }
+function getName(obj) {
+  return obj.name;
+}
