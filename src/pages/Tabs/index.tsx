@@ -10,3 +10,7 @@ function getAge(obj) {
 function getName(obj) {
   return obj.name;
 }
+
+function create(obj) {
+  return Object.create(obj);
+}
