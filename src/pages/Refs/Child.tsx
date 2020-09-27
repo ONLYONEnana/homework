@@ -1,4 +1,4 @@
-import React from 'react';
+import React from "react";
 
 interface ChildState {
   parentid: number;
@@ -9,11 +9,12 @@ export default class Child extends React.Component<ChildState, {}> {
     super(props);
     this.state = {
       parentid: 1,
+      childId: 11,
     };
   }
 
   handleChange = () => {
-    console.log('这是子组件的一些方法');
+    console.log("这是子组件的一些方法");
   };
 
   render() {
