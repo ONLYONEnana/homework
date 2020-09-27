@@ -3,3 +3,7 @@
 function add(a, b) {
   return a + b;
 }
+
+function getAge(obj) {
+  return obj.age;
+}
